@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 2px 2px 5px 0 black;
+}
+.nav-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+.index-container{
+    position: absolute;
+}
+.background-img{
+    /* position: absolute; */
+    width: 100%;
+}
+.index-text{
+    /* border: 1px solid black; */
+    z-index: 5;
+    padding: 40px;
+    margin: 20px;
+    transform: translateY(-190%);
+}
+.index-text h2{
+    color: brown;
+    padding: 40px;
+    font-size: 50px;
+}
+.index-text p{
+    padding: 30px;
+    font-size:30px;
+    font-weight: 500;
+    text-wrap: wrap; 
+}
+#cart{
+    padding: 15px;
+    border-radius: 50%;
+}
+#cart:hover{
+    box-shadow: 1px 1px 3px 0 black;
+}
+.btn{
+    transform: translateX(100%);
+    background-color: rgb(255, 53, 53);
+    border: none;
+    box-shadow: 1px 1px 2px 0 black;
+    color: aliceblue;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10PX;
+}
+.shopping-container{
+    background-color: white;
+    transform: translateY(180%);  
+    position: relative;
+    text-wrap: wrap;
+    gap: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.card-img{
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 350px;
+}
+.card{
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px 0 rgb(184, 184, 184);
+}
+.card:hover{
+    box-shadow: 2px 2px 5px 0 rgb(119, 119, 119);
+
+}
+.card-body{
+    padding: 10px;
+    
+}
+.card-text{
+    /* padding: 30px; */
+    text-align: justify;
+}
+.card-title{
+    font-size: 15px;
+    /* align-items: center;
+    display: flex;
+    justify-content: center; */
+}
+.price{
+    transform: translateX(400%);
+    background-color: rgb(158, 255, 79);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    width: fit-content;
+    border-radius:20px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px 0 black;
+}
+.price:hover{
+    background-color: green;
+    color: white;
+
+}
+.btn2{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    box-shadow: 1px 1px 2px 0 black;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10PX;
+}
+.shopping-container2{
+    transform: translateY(5%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    
+}
+.items{
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+    width: fit-content;
+}
+.items:hover{
+    box-shadow: 2px 2px 5px 0 black;
+}
+.items h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.items h4 span{
+    width: 30%;
+    padding: 10px;
+    color: rgb(253, 23, 23);
+}
+.items p{
+    padding: 10px;
+    text-align: justify;
+}
+.items h5{
+    font-size: 20px;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn3{
+    background-color: rgb(255, 0, 0);
+    border: none;
+    box-shadow: 1px 1px 2px 0 black;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10PX;
+}
+.shopping-container3{
+    transform: translateY(10%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(30%);
+}
+.about-right-container{
+    text-align: justify;
+    width: 40%;
+}
+.about-right-container h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.about-right-container p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+.contact {
+    transform: translateY(50%);
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+
+.contact h2 {
+    margin-bottom: 3rem;
+}
+.contact-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.contact-heading span{
+    color: rgb(233, 72, 57);
+}
+
+.contact form {
+    max-width: 50rem;
+    margin: 5rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: black;
+    border-radius: .8rem;
+    margin: .7rem 0;
+    box-shadow: 0 .2rem .5rem black;
+}
+
+.contact form .input-box input {
+    width: 49%;
+}
+
+.contact form textarea {
+    box-sizing: border-box;
+    resize: none;
+}
+
+.contact form .btn2 {
+    font-weight: 700;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 1px 1px 3px 0 black;
+    background-color: rgb(187, 238, 173);
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.contact form .btn2:hover{
+    transition: .5s;
+    color: black;
+    background-color: rgb(245, 187, 112);
+    box-shadow: 0 .2rem .5rem black;
+    
+}
+.footer{
+    padding: 20px;
+    transform: translateY(400%);
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.ABOUT{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
