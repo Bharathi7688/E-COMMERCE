@@ -284,9 +284,9 @@
     box-shadow: 0 .2rem .5rem black;
     
 }
-.footer{
-    padding: 20px;
-    transform: translateY(400%);
+.footer-container{
+    padding: 50px;
+    transform: translateY(100%);
     background-color: rgb(0, 0, 0);
     color: white;
 }
@@ -295,3 +295,10 @@
     justify-content: space-around;
     align-items: center;
 }
+footer {
+    transform: translateY(700%);
+    text-align: center;
+    padding: 5px;
+    background-color: #aeaeae;
+    color: #000;
+  }
