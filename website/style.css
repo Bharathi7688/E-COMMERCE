@@ -8,21 +8,28 @@
     width: 100%;
     z-index: 10;
     border-radius: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(43, 223, 255);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px;
     box-shadow: 2px 2px 5px 0 black;
 }
 .nav-text{
+    padding: 0 4rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 700;
     font-size: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 2rem;
+}
+.nav-text div{
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-text div a{
+    color: black;
 }
 .index-container{
     position: absolute;
